@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Figma Dev Mode Opener",
+  "version": "1.0",
+  "description": "FigmaのリンクをDevモードで開きます",
+  "permissions": ["webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
